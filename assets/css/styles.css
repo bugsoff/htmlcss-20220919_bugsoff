@@ -1,4 +1,5 @@
 @import '../fonts/fonts.css';
+@import '../../components/page/page.css';
 
 :root {
     --white: #ffffff;
@@ -9,21 +10,28 @@
     --blue: #4263EB;
     --blue-dark: #2342C0;
     --red: #F03D3E;
+    --orange: #D84910;
     --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --total-black: #000000;
 
     --error: var(--red);
     --success: var(--blue);
-
+    --notification: var(--orange);
     --primary: var(--blue);
     --primary-active: var(--blue-dark);
     --secondary: var(--purple);
     --secondary-active: var(--purple-dark);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
 }
